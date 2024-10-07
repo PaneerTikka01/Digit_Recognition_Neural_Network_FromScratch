@@ -59,14 +59,15 @@ Input -> Hidden Layer 1 -> Hidden Layer 2 -> Output Layer (Softmax)
    git clone https://github.com/yourusername/digit-recognizer.git
    cd digit-recognizer
 2. Install the required dependencies (if not already installed):
-   pip install numpy pandas matplotlib
-
-3.Download the dataset from Kaggle and place it in the same directory or specify the path in the code.
+    ```bash
+      pip install numpy pandas matplotlib
+    
+3. Download the dataset from Kaggle and place it in the same directory or specify the path in the code.
 
 4. Run the script:
    python digit_recognizer.py
 
-Contributing
+## Contributing
 Feel free to fork this project and submit pull requests. Suggestions for improvements are always welcome!
 
 ---
