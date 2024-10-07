@@ -67,6 +67,14 @@ Input -> Hidden Layer 1 -> Hidden Layer 2 -> Output Layer (Softmax)
 4. Run the script:
    python digit_recognizer.py
 
+## Key Functions:
+1. init_params(): Initializes the weights and biases for the network layers.
+2. forward_propagation(): Implements forward propagation through the layers using ReLU and softmax activation functions.
+3. backward_propagation(): Calculates the gradients for weights and biases using the chain rule.
+4. update_parameters(): Updates the weights and biases using gradient descent.
+5. get_accuracy(): Calculates the accuracy of the model's predictions.
+6. gradient_descent(): Main function to perform training using forward and backward propagation over a set number of iterations.
+
 ## Contributing
 Feel free to fork this project and submit pull requests. Suggestions for improvements are always welcome!
 
